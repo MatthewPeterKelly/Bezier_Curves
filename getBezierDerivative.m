@@ -29,7 +29,7 @@ for i=1:(n-1)
     D(i,i+1) = 1;
     D(i,i) = -1;
 end
-D = n*D/h;
+D = (n-1)*D/h;
 Q = (D*P')';
 
 end

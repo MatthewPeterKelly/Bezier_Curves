@@ -2,7 +2,7 @@
 %
 % This script runs a simple demo of a bezier curve
 
-order = 5;
+order = 3;
 
 p = rand(2,order+1);
 
